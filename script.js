@@ -29,7 +29,7 @@ $(document).ready(function(){
     });
 });
 const downloadBtn=document.querySelector(".download-btn");
-const fileLink="file:///C:/Users/atika/OneDrive/Desktop/resume/Chanti%20resume-2.pdf";
+const fileLink="https://drive.google.com/file/d/108-eMlxLhjcBcxFM97yYJdxvpXfmm3C_/view";
 const initTimer=()=>{
         let timer=downloadBtn.CDATA_SECTION_NODE.timer;
         downloadBtn.classList.add("timer");

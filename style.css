@@ -43,7 +43,7 @@ body{
 }
 
 section{
-    min-height: 100vh;
+    /* min-height: 100vh; */
     padding: 1rem;
 }
 
@@ -119,7 +119,20 @@ header .navbar ul li a{
 header .navbar ul li a:hover{
     background: var(--yellow);
 }
+.social{
+    margin-left: 8%;
+    margin-top: 100px;
+}
 
+.social a{
+    font-size: 30px;
+    color: #f0efef;
+    margin-right: 20px;
+}
+
+.social a:hover{
+    color: orange;
+}
 #menu{
     position: fixed;
     top:2rem ;
@@ -139,6 +152,7 @@ header .navbar ul li a:hover{
     align-items: center;
     flex-flow: column;
     padding: 0 15rem;
+    min-height: 100vh;
 }
 
 .home h3{
